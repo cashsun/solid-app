@@ -1,7 +1,7 @@
 import Counter from "./Counter";
 import {  fireEvent, render } from 'solid-testing-library';
 import { Result } from "solid-testing-library/dist/types";
-import StoreProvider from '../store/StoreProvider';
+import StoreProvider from '../../store/StoreProvider';
 
 describe('counter', ()=>{
     let container: Result["container"];

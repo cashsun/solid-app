@@ -1,5 +1,5 @@
 import type { Component } from "solid-js";
-import Counter from './counter/Counter';
+import Counter from './components/counter/Counter';
 import StoreProvider from "./store/StoreProvider";
 
 const App: Component = () => {

@@ -1,5 +1,4 @@
-import { createSignal } from "solid-js"
-import { useActions, useCounter, useStore } from "../store/StoreProvider"
+import { useActions, useCounter } from "../../store/StoreProvider";
 
 export default ()=>{
     const {increment, decrement} = useActions();
